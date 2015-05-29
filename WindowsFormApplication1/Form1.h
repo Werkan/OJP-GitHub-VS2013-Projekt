@@ -72,6 +72,7 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::TextBox^  textBox33;
 	private: System::Windows::Forms::TextBox^  textBox34;
 	private: System::Windows::Forms::TextBox^  textBox35;
+	private: System::Windows::Forms::Button^  button2;
 
 	private:
 		/// <summary>
@@ -123,6 +124,7 @@ namespace WindowsFormApplication1 {
 			this->textBox33 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox34 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox35 = (gcnew System::Windows::Forms::TextBox());
+			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// button1
@@ -388,11 +390,21 @@ namespace WindowsFormApplication1 {
 			this->textBox35->Size = System::Drawing::Size(100, 20);
 			this->textBox35->TabIndex = 36;
 			// 
+			// button2
+			// 
+			this->button2->Location = System::Drawing::Point(53, 220);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(75, 23);
+			this->button2->TabIndex = 37;
+			this->button2->Text = L"button2";
+			this->button2->UseVisualStyleBackColor = true;
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(552, 1015);
+			this->Controls->Add(this->button2);
 			this->Controls->Add(this->textBox35);
 			this->Controls->Add(this->textBox34);
 			this->Controls->Add(this->textBox33);
