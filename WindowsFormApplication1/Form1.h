@@ -43,42 +43,42 @@ namespace WindowsFormApplication1 {
 		}
 	private: System::Windows::Forms::Button^  button1;
 	protected:
-	private: System::Windows::Forms::TextBox^  textBox1;
-	private: System::Windows::Forms::Label^  label1;
-	private: System::Windows::Forms::TextBox^  textBox2;
-	private: System::Windows::Forms::TextBox^  textBox3;
-	private: System::Windows::Forms::TextBox^  textBox4;
-	private: System::Windows::Forms::TextBox^  textBox5;
-	private: System::Windows::Forms::TextBox^  textBox6;
-	private: System::Windows::Forms::TextBox^  textBox7;
-	private: System::Windows::Forms::TextBox^  textBox8;
-	private: System::Windows::Forms::TextBox^  textBox9;
-	private: System::Windows::Forms::TextBox^  textBox10;
-	private: System::Windows::Forms::TextBox^  textBox11;
-	private: System::Windows::Forms::TextBox^  textBox12;
-	private: System::Windows::Forms::TextBox^  textBox13;
-	private: System::Windows::Forms::TextBox^  textBox14;
-	private: System::Windows::Forms::TextBox^  textBox15;
-	private: System::Windows::Forms::TextBox^  textBox16;
-	private: System::Windows::Forms::TextBox^  textBox17;
-	private: System::Windows::Forms::TextBox^  textBox18;
-	private: System::Windows::Forms::TextBox^  textBox19;
-	private: System::Windows::Forms::TextBox^  textBox20;
-	private: System::Windows::Forms::TextBox^  textBox21;
-	private: System::Windows::Forms::TextBox^  textBox22;
-	private: System::Windows::Forms::TextBox^  textBox23;
-	private: System::Windows::Forms::TextBox^  textBox24;
-	private: System::Windows::Forms::TextBox^  textBox25;
-	private: System::Windows::Forms::TextBox^  textBox26;
-	private: System::Windows::Forms::TextBox^  textBox27;
-	private: System::Windows::Forms::TextBox^  textBox28;
-	private: System::Windows::Forms::TextBox^  textBox29;
-	private: System::Windows::Forms::TextBox^  textBox30;
-	private: System::Windows::Forms::TextBox^  textBox31;
-	private: System::Windows::Forms::TextBox^  textBox32;
-	private: System::Windows::Forms::TextBox^  textBox33;
-	private: System::Windows::Forms::TextBox^  textBox34;
-	private: System::Windows::Forms::TextBox^  textBox35;
+	protected: System::Windows::Forms::TextBox^  textBox1;
+	protected: System::Windows::Forms::Label^  label1;
+	protected: System::Windows::Forms::TextBox^  textBox2;
+	protected: System::Windows::Forms::TextBox^  textBox3;
+	protected: System::Windows::Forms::TextBox^  textBox4;
+	protected: System::Windows::Forms::TextBox^  textBox5;
+	protected: System::Windows::Forms::TextBox^  textBox6;
+	protected: System::Windows::Forms::TextBox^  textBox7;
+	protected: System::Windows::Forms::TextBox^  textBox8;
+	protected: System::Windows::Forms::TextBox^  textBox9;
+	protected: System::Windows::Forms::TextBox^  textBox10;
+	protected: System::Windows::Forms::TextBox^  textBox11;
+	protected: System::Windows::Forms::TextBox^  textBox12;
+	protected: System::Windows::Forms::TextBox^  textBox13;
+	protected: System::Windows::Forms::TextBox^  textBox14;
+	protected: System::Windows::Forms::TextBox^  textBox15;
+	protected: System::Windows::Forms::TextBox^  textBox16;
+	protected: System::Windows::Forms::TextBox^  textBox17;
+	protected: System::Windows::Forms::TextBox^  textBox18;
+	protected: System::Windows::Forms::TextBox^  textBox19;
+	protected: System::Windows::Forms::TextBox^  textBox20;
+	protected: System::Windows::Forms::TextBox^  textBox21;
+	protected: System::Windows::Forms::TextBox^  textBox22;
+	protected: System::Windows::Forms::TextBox^  textBox23;
+	protected: System::Windows::Forms::TextBox^  textBox24;
+	protected: System::Windows::Forms::TextBox^  textBox25;
+	protected: System::Windows::Forms::TextBox^  textBox26;
+	protected: System::Windows::Forms::TextBox^  textBox27;
+	protected: System::Windows::Forms::TextBox^  textBox28;
+	protected: System::Windows::Forms::TextBox^  textBox29;
+	protected: System::Windows::Forms::TextBox^  textBox30;
+	protected: System::Windows::Forms::TextBox^  textBox31;
+	protected: System::Windows::Forms::TextBox^  textBox32;
+	protected: System::Windows::Forms::TextBox^  textBox33;
+	protected: System::Windows::Forms::TextBox^  textBox34;
+	protected: System::Windows::Forms::TextBox^  textBox35;
 
 
 	private:
@@ -449,11 +449,13 @@ namespace WindowsFormApplication1 {
 
 
 
-	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-
+	public: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 				 Form2^ form2 = gcnew Form2;
-				 Form1^ form1 = gcnew Form1;
-				 this->textBox1->Text =
+			
+				 Form2^ lista = gcnew Form2();
+				 lista->Show();
+
+				
 	}
 };
 }
