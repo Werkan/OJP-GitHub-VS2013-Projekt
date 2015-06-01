@@ -35,17 +35,17 @@ namespace WindowsFormApplication1 {
 				delete components;
 			}
 		}
-	protected: System::Windows::Forms::Label^  label1;
-	protected:
+	public: System::Windows::Forms::Label^  label1;
+	public:
 	public: System::Windows::Forms::Label^  label2;
-	protected: System::Windows::Forms::Label^  label3;
-	private: System::Windows::Forms::Label^  label4;
-	private: System::Windows::Forms::Label^  label5;
-	private: System::Windows::Forms::Label^  label6;
-	private: System::Windows::Forms::Label^  label7;
-	private: System::Windows::Forms::Label^  label8;
-	private: System::Windows::Forms::Label^  label9;
-	private: System::Windows::Forms::Label^  label10;
+	public: System::Windows::Forms::Label^  label3;
+	public: System::Windows::Forms::Label^  label4;
+	public: System::Windows::Forms::Label^  label5;
+	public: System::Windows::Forms::Label^  label6;
+	public: System::Windows::Forms::Label^  label7;
+	public: System::Windows::Forms::Label^  label8;
+	public: System::Windows::Forms::Label^  label9;
+	public: System::Windows::Forms::Label^  label10;
 
 
 
@@ -228,9 +228,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label2->Location = System::Drawing::Point(12, 76);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(44, 25);
+			this->label2->Size = System::Drawing::Size(0, 25);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"asd";
 			// 
 			// label3
 			// 
@@ -239,9 +238,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label3->Location = System::Drawing::Point(12, 101);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(44, 25);
+			this->label3->Size = System::Drawing::Size(0, 25);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"asd";
 			// 
 			// label4
 			// 
@@ -250,9 +248,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label4->Location = System::Drawing::Point(12, 126);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(44, 25);
+			this->label4->Size = System::Drawing::Size(0, 25);
 			this->label4->TabIndex = 3;
-			this->label4->Text = L"asd";
 			// 
 			// label5
 			// 
@@ -261,9 +258,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label5->Location = System::Drawing::Point(12, 151);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(44, 25);
+			this->label5->Size = System::Drawing::Size(0, 25);
 			this->label5->TabIndex = 4;
-			this->label5->Text = L"asd";
 			// 
 			// label6
 			// 
@@ -272,9 +268,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label6->Location = System::Drawing::Point(12, 176);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(44, 25);
+			this->label6->Size = System::Drawing::Size(0, 25);
 			this->label6->TabIndex = 5;
-			this->label6->Text = L"asd";
 			// 
 			// label7
 			// 
@@ -283,9 +278,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label7->Location = System::Drawing::Point(12, 201);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(44, 25);
+			this->label7->Size = System::Drawing::Size(0, 25);
 			this->label7->TabIndex = 6;
-			this->label7->Text = L"asd";
 			// 
 			// label8
 			// 
@@ -294,9 +288,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label8->Location = System::Drawing::Point(12, 226);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(44, 25);
+			this->label8->Size = System::Drawing::Size(0, 25);
 			this->label8->TabIndex = 7;
-			this->label8->Text = L"asd";
 			// 
 			// label9
 			// 
@@ -305,9 +298,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label9->Location = System::Drawing::Point(12, 251);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(44, 25);
+			this->label9->Size = System::Drawing::Size(0, 25);
 			this->label9->TabIndex = 8;
-			this->label9->Text = L"asd";
 			// 
 			// label10
 			// 
@@ -316,9 +308,8 @@ namespace WindowsFormApplication1 {
 				static_cast<System::Byte>(238)));
 			this->label10->Location = System::Drawing::Point(12, 276);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(44, 25);
+			this->label10->Size = System::Drawing::Size(0, 25);
 			this->label10->TabIndex = 9;
-			this->label10->Text = L"asd";
 			// 
 			// button1
 			// 
