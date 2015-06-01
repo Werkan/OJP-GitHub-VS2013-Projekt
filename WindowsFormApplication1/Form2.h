@@ -1,5 +1,6 @@
 #pragma once
 
+
 namespace WindowsFormApplication1 {
 
 	using namespace System;
@@ -51,47 +52,12 @@ namespace WindowsFormApplication1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^  button1;
 	public:
 	private: System::Windows::Forms::Button^  button2;
 	private: System::Windows::Forms::Button^  button3;
 	private: System::Windows::Forms::Button^  button4;
 	private: System::Windows::Forms::Button^  button5;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -104,13 +70,6 @@ namespace WindowsFormApplication1 {
 
 
 
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^  button41;
 	private: System::Windows::Forms::Button^  button42;
 	private: System::Windows::Forms::Button^  button43;
@@ -118,26 +77,11 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::Button^  button45;
 
 
-
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^  button56;
 	private: System::Windows::Forms::Button^  button57;
 	private: System::Windows::Forms::Button^  button58;
 	private: System::Windows::Forms::Button^  button59;
 	private: System::Windows::Forms::Button^  button60;
-
-
-
-
-
-
-
 
 
 
@@ -149,26 +93,11 @@ namespace WindowsFormApplication1 {
 
 
 
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^  button86;
 	private: System::Windows::Forms::Button^  button87;
 	private: System::Windows::Forms::Button^  button88;
 	private: System::Windows::Forms::Button^  button89;
 	private: System::Windows::Forms::Button^  button90;
-
-
-
-
-
-
-
-
 
 
 	private: System::Windows::Forms::Button^  button101;
@@ -179,26 +108,11 @@ namespace WindowsFormApplication1 {
 
 
 
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^  button116;
 	private: System::Windows::Forms::Button^  button117;
 	private: System::Windows::Forms::Button^  button118;
 	private: System::Windows::Forms::Button^  button119;
 	private: System::Windows::Forms::Button^  button120;
-
-
-
-
-
-
-
-
 
 
 	private: System::Windows::Forms::Button^  button131;
@@ -209,297 +123,11 @@ namespace WindowsFormApplication1 {
 
 
 
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^  button146;
 	private: System::Windows::Forms::Button^  button147;
 	private: System::Windows::Forms::Button^  button148;
 	private: System::Windows::Forms::Button^  button149;
 	private: System::Windows::Forms::Button^  button150;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1106,6 +734,7 @@ namespace WindowsFormApplication1 {
 			this->button146->Size = System::Drawing::Size(21, 23);
 			this->button146->TabIndex = 174;
 			this->button146->UseVisualStyleBackColor = true;
+			this->button146->Click += gcnew System::EventHandler(this, &Form2::button146_Click_1);
 			// 
 			// button147
 			// 
@@ -1114,6 +743,7 @@ namespace WindowsFormApplication1 {
 			this->button147->Size = System::Drawing::Size(21, 23);
 			this->button147->TabIndex = 173;
 			this->button147->UseVisualStyleBackColor = true;
+			this->button147->Click += gcnew System::EventHandler(this, &Form2::button147_Click_1);
 			// 
 			// button148
 			// 
@@ -1122,6 +752,7 @@ namespace WindowsFormApplication1 {
 			this->button148->Size = System::Drawing::Size(21, 23);
 			this->button148->TabIndex = 172;
 			this->button148->UseVisualStyleBackColor = true;
+			this->button148->Click += gcnew System::EventHandler(this, &Form2::button148_Click_1);
 			// 
 			// button149
 			// 
@@ -1130,6 +761,7 @@ namespace WindowsFormApplication1 {
 			this->button149->Size = System::Drawing::Size(21, 23);
 			this->button149->TabIndex = 171;
 			this->button149->UseVisualStyleBackColor = true;
+			this->button149->Click += gcnew System::EventHandler(this, &Form2::button149_Click_1);
 			// 
 			// button150
 			// 
@@ -1138,6 +770,7 @@ namespace WindowsFormApplication1 {
 			this->button150->Size = System::Drawing::Size(21, 23);
 			this->button150->TabIndex = 170;
 			this->button150->UseVisualStyleBackColor = true;
+			this->button150->Click += gcnew System::EventHandler(this, &Form2::button150_Click);
 			// 
 			// Form2
 			// 
@@ -2046,15 +1679,15 @@ private: System::Void button132_Click(System::Object^  sender, System::EventArgs
 			 i3 = i3 + 1;
 			 if (i3 == 1)
 			 {
-				 button135->BackColor = System::Drawing::Color::Green;
+				 button132->BackColor = System::Drawing::Color::Green;
 			 }
 			 else if (i3 == 2)
 			 {
-				 button135->BackColor = System::Drawing::Color::Red;
+				 button132->BackColor = System::Drawing::Color::Red;
 			 }
 			 else if (i3 == 3)
 			 {
-				 button135->BackColor = System::Drawing::Color::Yellow;
+				 button132->BackColor = System::Drawing::Color::Yellow;
 			 }
 			 else if (i3 == 4)
 			 {
@@ -2062,6 +1695,127 @@ private: System::Void button132_Click(System::Object^  sender, System::EventArgs
 			 }
 }
 private: System::Void button131_Click(System::Object^  sender, System::EventArgs^  e) {
+			 i4 = i4 + 1;
+			 if (i4 == 1)
+			 {
+				 button131->BackColor = System::Drawing::Color::Green;
+			 }
+			 else if (i4 == 2)
+			 {
+				 button131->BackColor = System::Drawing::Color::Red;
+			 }
+			 else if (i4 == 3)
+			 {
+				 button131->BackColor = System::Drawing::Color::Yellow;
+			 }
+			 else if (i4 == 4)
+			 {
+				 i4 = 0;
+			 }
+}
+		 
+
+int j=0, j1=0, j2=0, j3=0, j4=0; 
+
+private: System::Void button150_Click(System::Object^  sender, System::EventArgs^  e) {
+			 j4 = j4 + 1;
+			 if (j4 == 1)
+			 {
+				 button150->BackColor = System::Drawing::Color::Green;
+			 }
+			 else if (j4 == 2)
+			 {
+				 button150->BackColor = System::Drawing::Color::Red;
+			 }
+			 else if (j4 == 3)
+			 {
+				 button150->BackColor = System::Drawing::Color::Yellow;
+			 }
+			 else if (j4 == 4)
+			 {
+				 j4 = 0;
+			 }
+}
+
+
+
+
+
+private: System::Void button146_Click_1(System::Object^  sender, System::EventArgs^  e) {
+			 j3 = j3 + 1;
+			 if (j3 == 1)
+			 {
+				 button146->BackColor = System::Drawing::Color::Green;
+			 }
+			 else if (j3 == 2)
+			 {
+				 button146->BackColor = System::Drawing::Color::Red;
+			 }
+			 else if (j3 == 3)
+			 {
+				 button146->BackColor = System::Drawing::Color::Yellow;
+			 }
+			 else if (j3 == 4)
+			 {
+				 j3 = 0;
+			 }
+}
+private: System::Void button147_Click_1(System::Object^  sender, System::EventArgs^  e) {
+			 j2 = j2 + 1;
+			 if (j2 == 1)
+			 {
+				 button147->BackColor = System::Drawing::Color::Green;
+			 }
+			 else if (j2 == 2)
+			 {
+				 button147->BackColor = System::Drawing::Color::Red;
+			 }
+			 else if (j2 == 3)
+			 {
+				 button147->BackColor = System::Drawing::Color::Yellow;
+			 }
+			 else if (j2 == 4)
+			 {
+				 j2 = 0;
+			 }
+}
+private: System::Void button148_Click_1(System::Object^  sender, System::EventArgs^  e) {
+			 j1 = j1 + 1;
+			 if (j1 == 1)
+			 {
+				 button148->BackColor = System::Drawing::Color::Green;
+			 }
+			 else if (j1 == 2)
+			 {
+				 button148->BackColor = System::Drawing::Color::Red;
+			 }
+			 else if (j1 == 3)
+			 {
+				 button148->BackColor = System::Drawing::Color::Yellow;
+			 }
+			 else if (j1 == 4)
+			 {
+				 j1 = 0;
+			 }
+}
+private: System::Void button149_Click_1(System::Object^  sender, System::EventArgs^  e) {
+			 j = j + 1;
+			 if (j == 1)
+			 {
+				 button149->BackColor = System::Drawing::Color::Green;
+			 }
+			 else if (j == 2)
+			 {
+				 button149->BackColor = System::Drawing::Color::Red;
+			 }
+			 else if (j == 3)
+			 {
+				 button149->BackColor = System::Drawing::Color::Yellow;
+			 }
+			 else if (j == 4)
+			 {
+				 j = 0;
+			 }
 }
 };
-}
+ }
